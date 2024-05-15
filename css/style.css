@@ -785,6 +785,11 @@ footer span {
 @media (max-width: 375px) {
   html {
     font-size: 38%;
+  }.hero {
+    min-height: 70vh;
+  }
+  .content {
+    min-height: 30vh;
   }
   .ikon {
     width: 35px;
