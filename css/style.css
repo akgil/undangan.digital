@@ -782,15 +782,9 @@ footer span {
     top: 1.5rem;
   }
 }
-/* @media (max-width: 375px) {
+@media (max-width: 375px) {
   html {
     font-size: 38%;
-  }
-  .hero {
-    min-height: 70vh;
-  }
-  .content {
-    min-height: 30vh;
   }
   .ikon {
     width: 35px;
@@ -858,5 +852,4 @@ footer span {
     position: absolute;
     top: 1.5rem;
   }
-} */
-
+} 
