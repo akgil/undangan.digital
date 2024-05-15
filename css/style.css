@@ -786,10 +786,10 @@ footer span {
   html {
     font-size: 38%;
   }.hero {
-    min-height: 70vh;
+    min-height: 60vh;
   }
   .content {
-    min-height: 30vh;
+    min-height: 40vh;
   }
   .ikon {
     width: 35px;
