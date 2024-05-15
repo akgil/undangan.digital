@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Undangan Digital</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=MonteCarlo&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--Style-->
+    <link rel="stylesheet" href="" />
+  </head>
+  <body>
+    <!--hero-->
+    <section class="hero"></section>
+    <div class="content">
+      <h1>Fadel</h1>
+      <h2>&</h2>
+      <h3>Fitri</h3>
+    </div>
+    <!--end hero-->
+
+    <!--informasi-->
+    <div class="kalender">
+      <img class="ikon" src="img/Calendar.svg" alt="ikon" />
+      <div class="tanggal">
+        <h1>01</h1>
+        <h2>September</h2>
+        <h3>2023</h3>
+        <h4>Akad 08.00</h4>
+        <p>Resepsi 13.00 - 22.00</p>
+      </div>
+    </div>
+
+    <div class="alamat">
+      <img class="map" src="img/Location.svg" alt="map" />
+      <a href="#popup" class="tmbl"></a>
+      <div class="jalan">
+        <h1>Jl.Punden</h1>
+        <h2>Rt.12 Rw.03</h2>
+        <p>Kel.Jarikerto Kec.Kromengan Kab.Malang</p>
+      </div>
+    </div>
+    <!--informasi-->
+
+    <div class="swipe">
+      <h1>swipe up</h1>
+    </div>
+
+    <!--hero2-->
+    <section class="hero2">
+      <div class="laki">
+        <img class="circle" src="img/3.svg" />
+        <h1>Fadel Zulfahmi</h1>
+        <p>
+          Putra <span>Bpk Ilham<br />&<br />Ibu Irma</span
+          ><br /><br />Cepokomulyo | Kepanjen | Malang
+        </p>
+      </div>
+      <div class="perempuan">
+        <img class="circle2" src="img/4.svg" />
+        <h1>Fitri Usmawatun</h1>
+        <p>
+          Putra <span>Bpk. Seniman<br />&<br />Ibu Misty</span
+          ><br /><br />Jatikerto | Kromengan | Malang
+        </p>
+      </div>
+    </section>
+    <!--end hero2-->
+
+    <!--tulisan panjang-->
+    <section class="tulisan">
+      <p>
+        "Dan di antara tanda-tanda (kebesaran)-Nya ialah Dia menciptakan
+        pasangan-pasangan untukmu dari jenismu sendiri, agar kamu cenderung dan
+        merasa tenteram kepadanya, dan Dia menjadikan di antaramu rasa kasih dan
+        sayang. <br /><br /><span>"Ar- Rum 21"</span>
+      </p>
+    </section>
+    <!--tulisan panjang-->
+
+    <!--jadwal acara-->
+    <section class="jadwal-acara">
+      <h1>
+        Akad<span><br />08.00</span><br />Resepsi<span
+          ><br />13.00 - 22.00</span
+        >
+      </h1>
+      <h2>Bertempat di</h2>
+      <p>
+        Jl.punden <br />Rt.12 Rw.03
+        <span><br />Kel.Jatikerto, <br />Kec.Kromengan, Kab.Malang</span>
+      </p>
+      <a href="#popup" class="openmap">Buka Map</a>
+    </section>
+    <!--jadwal acara-->
+
+    <!--kotak gift-->
+    <section class="gift">
+      <p>
+        <span>Wedding Gift</span><br /><br />
+
+        Tanpa mengurangi rasa hormat, bagi Bapak/Ibu/saudara/i yang ingin
+        memberikan tanda kasih untuk kami, dapat melalui
+      </p>
+    </section>
+    <section class="qr">
+      <div class="qrcode">
+        <img class="gambarqr" src="img/qr.svg" alt="gambarqr" />
+      </div>
+      <div class="bank">
+        <img class="bca" src="img/bca.svg" alt="bca" />
+        <h1>1230594569</h1>
+      </div>
+    </section>
+    <!--kotak gift-->
+
+    <!--kolom komentar-->
+    <section class="kehadiran">
+      <ul>
+        komentar
+      </ul>
+      <div class="daftar-kehadiran">
+        <div class="out-hadir">
+          <div class="textatas">hadir</div>
+          <div class="angka">0</div>
+        </div>
+        <div class="out-tidak">
+          <div class="textatas">Tidak Hadir</div>
+          <div class="angka">0</div>
+        </div>
+        <div class="out-ragu">
+          <div class="textatas">Masih Ragu</div>
+          <div class="angka">0</div>
+        </div>
+      </div>
+      <form action="post comment" method="post"></form>
+      <input type="text" id="nama" name="nama" placeholder="Nama" />
+      <select id="kehadiran" name="kehadiran" required>
+        <option value="">Konfirmasi Kehadiran</option>
+        <option value="hadir">Hadir</option>
+        <option value="tidak">Tidak Hadir</option>
+        <option value="ragu">Ragu Ragu</option>
+      </select>
+      <textarea
+        id="komen"
+        name="komen"
+        rows="3"
+        placeholder="Komentar"
+      ></textarea>
+      <button class="kirim" type="submit" name="kirim">kirim</button>
+    </section>
+    <!--kolom komentar-->
+
+    <!-- popup -->
+    <div class="popup" id="popup">
+      <div class="popup-content">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d421.7499593367264!2d112.53897127618167!3d-8.134967548045116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sid!2sid!4v1715600920572!5m2!1sid!2sid"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          class="popupmap"
+        ></iframe>
+        <div class="popup-text">
+          <p>
+            Jl.Punden Rt.12 Rw.03<br /><span
+              >Kel. Jatikerto, Kec. Kromengan, Kab.Malang</span
+            >
+          </p>
+        </div>
+        <a href="#" class="popup-close">Close</a>
+      </div>
+    </div>
+
+    <!-- popup -->
+  </body>
+  <footer>
+    <p>Designed By. AKgil <br /><span>089689017084 | &copy; 2024.</span></p>
+  </footer>
+</html>
