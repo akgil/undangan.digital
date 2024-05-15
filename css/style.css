@@ -776,3 +776,80 @@ footer span {
     top: 1.5rem;
   }
 }
+@media (max-width: 375px) {
+  html {
+    font-size: 38%;
+  }
+  .hero {
+    min-height: 70vh;
+  }
+  .content {
+    min-height: 30vh;
+  }
+  .ikon {
+    width: 35px;
+  }
+  .map {
+    height: 35px;
+  }
+  .kalender {
+    position: absolute;
+    bottom: 120px;
+  }
+  .alamat {
+    position: absolute;
+    bottom: 65px;
+  }
+  .kalender,
+  .laki,
+  .perempuan {
+    width: 155px;
+    height: 35px;
+  }
+  .alamat .tmbl,
+  .alamat {
+    width: 155px;
+    height: 35px;
+  }
+  .jadwal-acara {
+    position: relative;
+    left: 15%;
+    width: 250px;
+    height: 125px;
+  }
+  .jadwal-acara p {
+    right: 15%;
+  }
+  .kehadiran {
+    position: relative;
+    left: 15%;
+    width: 250px;
+    height: 185px;
+  }
+  .kehadiran .textatas {
+    font-size: 85%;
+  }
+  .qr {
+    position: relative;
+    left: 15%;
+    width: 220px;
+    height: 85px;
+  }
+  .qr .qrcode {
+    width: 12rem;
+    height: 12rem;
+  }
+  .qr .gambarqr {
+    width: 11rem;
+    height: auto;
+  }
+  .qr .bank {
+    position: absolute;
+    top: 25%;
+  }
+  .qr .bca {
+    width: 13rem;
+    position: absolute;
+    top: 1.5rem;
+  }
+}
