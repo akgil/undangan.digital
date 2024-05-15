@@ -705,7 +705,7 @@ footer span {
     right: 1rem;
   }
 }
-@media (max-width: 450px) {
+@media (max-width: 470px) {
   html {
     font-size: 38%;
   }
